@@ -1,0 +1,53 @@
+*{
+    /* position: relative; */
+    margin: 0;
+}
+.main-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile-card {
+    position: relative;
+    left: 50%;
+    /* top: 10%; */
+    transform: translateX(-50%);
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    padding-top : 5rem;
+    padding-left: 1em;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    border-radius: 1em;
+    /* padding-bottom: 1rem; */
+    background-color: #f0f0f0;
+  }
+
+.pic1{
+    /* height: 200px;
+    position: absolute;
+    top: 20%;
+    left: 50%; */
+    position: absolute;
+    top: -2rem;
+    right: 35%;
+    /* width: 200px; */
+    height: 100px;
+    /* border: 3px solid #73AD21; */
+}
+.sticky-button{
+    color:#fff;
+    background-color:rgb(136, 136, 242);
+   
+}
+#toggle-button1{
+    position: absolute;
+    left: 38.2%;
+    color:#fff;
+    background-color:rgb(61, 61, 120);
+    padding: 5px;
+  
+}
